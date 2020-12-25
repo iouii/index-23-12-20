@@ -16,24 +16,24 @@ body{
     background-image:url("bacd.png");
 
 }
+.cen{
+    justify-content: center;
+}
 </style>
 <body>
 <div class="container-fluid">
 <div class="row">
-<div class="col-lg-12 col-md-12 col-12 ">
-<div class="row">
-<div class="col-lg-3 col-md-3 col-12 ">
-<h2>#</h2>
-</div>
+<div class="col-lg-12 col-md-12 col-12 cen">
 <div class="col-lg-6 col-md-6 col-12 ">
 <h1>Happy Birthday</h1>
 <div class="col-lg-12 col-md-12 col-12 ">
   <img src="com.gif" class="rounded" alt="...">
 </div>
+
 <span>Sending you smiles for every moment of your special day…Have a wonderful time and a very happy birthday!</span>
+
 </div>
-<div class="col-lg-3 col-md-3 col-12 ">
-</div>
+
 </div>
 
 </div>
