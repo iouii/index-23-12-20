@@ -21,16 +21,16 @@ body{
 <div class="container-fluid">
 <div class="row">
 <div class="col-lg-12 col-md-12 col-12 ">
-<div class="col-3">
+<div class="col-lg-3 col-md-3 col-12 ">
 </div>
-<div class="col-6">
+<div class="col-lg-6 col-md-6 col-12 ">
 <h1>Happy Birthday</h1>
 <div class="text-center">
   <img src="com.gif" class="rounded" alt="...">
 </div>
 <span>Sending you smiles for every moment of your special day…Have a wonderful time and a very happy birthday!</span>
 </div>
-<div class="col-3">
+<div class="col-lg-3 col-md-3 col-12 ">
 </div>
 </div>
 </div>
