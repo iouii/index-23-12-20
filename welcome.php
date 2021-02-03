@@ -86,6 +86,8 @@ background-color:#fff;
 
 <div class="container">
 <div class="row">
+ <input type="button" onclick="printDiv()" value="PRINT" class="btn btn-sm btn-success" style="border-radius:0px; color:#ffffff" />
+
        <div id='printableArea'>
               <div class="page">
 <div class="col-lg-12 col-md-12 col-12 head">
