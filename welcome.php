@@ -93,7 +93,7 @@ background-color:#fff;
 <div class="col-lg-12 col-md-12 col-12 body">
 <div class="row">
 <div class="col-lg-3 col-md-3 col-12" style="padding-bottom:10px; padding-left:25px;">
-<img src="image001.PNG" class="img-thumbnail img-head"  width="300" height="300" >
+<img src="image001.png" class="img-thumbnail img-head"  width="300" height="300" >
 </div>
 <div class="col-lg-9 col-md-9 col-0" >
 <h1>PONGPIPAT &nbsp; BOONHOR</h1> 
