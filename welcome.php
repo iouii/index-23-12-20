@@ -86,7 +86,7 @@ background-color:#fff;
 
 <div class="container">
 <div class="row">
- <input type="button" onclick="printDiv()" value="PRINT" class="btn btn-sm btn-success" style="border-radius:0px; color:#ffffff" />
+<input type="button" onclick="printDiv('printableArea')" value="PRINT" class="btn btn-sm btn-success" style="border-radius:0px; color:#ffffff" />
 
        <div id='printableArea'>
               <div class="page">
@@ -197,11 +197,11 @@ hobbies are watching movies, watching anime, playing basketball. Or doing someth
 
 <script>
 
-function printDiv() {
+function printDiv(id) {
 
 
 
-var printContents = document.getElementById(printableArea).innerHTML;
+var printContents = document.getElementById(id).innerHTML;
 var originalContents = document.body.innerHTML;
 document.body.innerHTML = printContents;
 window.print();
