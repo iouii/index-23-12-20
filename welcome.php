@@ -93,7 +93,7 @@ background-color:#fff;
 <div class="col-lg-12 col-md-12 col-12 body">
 <div class="row">
 <div class="col-lg-3 col-md-3 col-12" style="padding-bottom:10px; padding-left:25px;">
-<img src="com.gif" class="img-thumbnail img-head"  width="300" height="300" >
+<img src="image001.PNG" class="img-thumbnail img-head"  width="300" height="300" >
 </div>
 <div class="col-lg-9 col-md-9 col-0" >
 <h1>PONGPIPAT &nbsp; BOONHOR</h1> 
@@ -118,7 +118,7 @@ the position of Software Developer .
 <span><p> MOBILE : 094-432-7036 <br>
 E-MAIL : accuser.zx@gmail.com <br>
 GITHUB : <a href="https://github.com/iouii" target="_blank" >https://github.com/iouii</a> <br>
-/*Personal Website : <a href="http://nodleduck.tech/"target="_blank">http://nodleduck.tech/</a> */
+<!-- Personal Website : <a href="http://nodleduck.tech/"target="_blank">http://nodleduck.tech/</a> -->
 <br>
 349/55 Themix, Pluakdaeng  Mapyangphon , Rayong 21140, Thailand
 </p>
