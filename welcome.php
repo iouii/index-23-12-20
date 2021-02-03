@@ -89,7 +89,7 @@ background-color:#fff;
 <input type="button" onclick="printDiv('printableArea')" value="PRINT" class="btn btn-sm btn-success" style="border-radius:0px; color:#ffffff" />
 
        <div id='printableArea'>
-              <div class="page">
+              <div class="page" >
 <div class="col-lg-12 col-md-12 col-12 head">
 </div>
 <div class="col-lg-12 col-md-12 col-12 body">
@@ -98,13 +98,13 @@ background-color:#fff;
 <img src="image001.png" class="img-thumbnail img-head"  width="300" height="300" >
 </div>
 <div class="col-lg-9 col-md-9 col-0" >
-<h1>PONGPIPAT &nbsp; BOONHOR</h1> 
-<h3>IT PROGRAMER</h3>
+<h3>PONGPIPAT &nbsp; BOONHOR</h3> 
+<h4>IT PROGRAMER</h4>
 </div>
 <div class="col-lg-6 col-md-6 col-12 contact">
-<h4>PERSONAL PROFILE</h4>
+<h3>PERSONAL PROFILE</h3>
 <hr>
-<span>
+<span style="font-size:12px;">
 A self-motivated IT with huge
 knowledge and proficiency in PHP,
 HTML, MSSQL, C# , ASP.NET ,Unity 3D 
