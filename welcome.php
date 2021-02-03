@@ -26,11 +26,68 @@ background-color:#fff;
 .contact{
     padding:20px; 
 }
+           body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #FAFAFA;
+        font: 12pt "Tahoma";
+    }
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .page {
+        width: 210mm;
+        min-height: 297mm;
+        padding: 20mm;
+        margin: 10mm auto;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+ 
+  
+    @media print {
+      
+        .page {
+            width: 210mm;
+            height: 297mm;     
+            margin: 0;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;
+             
+        }
+    }
+
+    .logoImg{
+        
+        width:370px !important;        
+        height:80px !important;
+    }
+
+    .line-custom{
+
+        line-height: 14pt !important;
+    }
+    .textB{
+
+        font-weight:bold ;
+    }
 </style>
 <body>
 
 <div class="container">
 <div class="row">
+       <div id='printableArea'>
+              <div class="page">
 <div class="col-lg-12 col-md-12 col-12 head">
 </div>
 <div class="col-lg-12 col-md-12 col-12 body">
@@ -61,7 +118,7 @@ the position of Software Developer .
 <span><p> MOBILE : 094-432-7036 <br>
 E-MAIL : accuser.zx@gmail.com <br>
 GITHUB : <a href="https://github.com/iouii" target="_blank" >https://github.com/iouii</a> <br>
-Personal Website : <a href="http://nodleduck.tech/"target="_blank">http://nodleduck.tech/</a> 
+/*Personal Website : <a href="http://nodleduck.tech/"target="_blank">http://nodleduck.tech/</a> */
 <br>
 349/55 Themix, Pluakdaeng  Mapyangphon , Rayong 21140, Thailand
 </p>
@@ -129,8 +186,25 @@ hobbies are watching movies, watching anime, playing basketball. Or doing someth
 
 </div>
 </div>
-
+</div>
+</div> 
 </div>
 </div> 
 </body>
 </html>
+
+<script>
+
+function printDiv() {
+
+
+
+var printContents = document.getElementById(printableArea).innerHTML;
+var originalContents = document.body.innerHTML;
+document.body.innerHTML = printContents;
+window.print();
+document.body.innerHTML = originalContents;
+
+}
+
+</script>
